@@ -1,0 +1,560 @@
+Fri 11 Mar 2022 09:44:25 AM PST
+Linux csslab1h 4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29) x86_64 GNU/Linux
+uid=1028543(ghayar) gid=2121028543(ghayar) groups=2121028543(ghayar),605559(lab-access)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+=====================================
+Start testStoreFinal
+ERROR: Unknown genre Z
+ERROR: Unknown genre Z
+INVALID TYPE X
+INVALID TYPE Z
+C
+10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942, Media Type: D
+10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942, Media Type: D
+10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939, Media Type: D
+10, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971, Media Type: D
+10, George Cukor, Holiday, Katherine Hepburn, 9 1938, Media Type: D
+10, George Cukor, Holiday, Cary Grant, 9 1938, Media Type: D
+10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939, Media Type: D
+10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939, Media Type: D
+10, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940, Media Type: D
+10, George Cukor, The Philadelphia Story, Cary Grant, 5 1940, Media Type: D
+10, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941, Media Type: D
+10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946, Media Type: D
+10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946, Media Type: D
+10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971, Media Type: D
+
+D
+10, Barry Levinson, Good Morning Vietnam, 1988, Media Type: D
+10, Barry Levinson, Same Director Good Morning Vietnam, 1988, Media Type: D
+10, Gus Van Sant, Good Will Hunting, 2000, Media Type: D
+10, Phillippe De Broca, King of Hearts, 1967, Media Type: D
+10, Steven Spielberg, Schindler's List, 1993, Media Type: D
+10, Jonathan Demme, Silence of the Lambs, 1991, Media Type: D
+10, Clint Eastwood, Unforgiven, 1992, Media Type: D
+10, Nancy Savoca, Dogfight, 1991, Media Type: D
+
+F
+10, Nora Ephron, Sleepless in Seattle, 1993, Media Type: D
+10, Woody Allen, Annie Hall, 1977, Media Type: D
+10, Rob Reiner, When Harry Met Sally, 1989, Media Type: D
+10, Gore Verbinski, Pirates of the Caribbean, 2003, Media Type: D
+10, Different Years, Pirates of the Caribbean, 2000, Media Type: D
+10, Joel Coen, Fargo, 1996, Media Type: D
+10, John Landis, National Lampoon's Animal House, 1978, Media Type: D
+10, Nora Ephron, You've Got Mail, 1998, Media Type: D
+
+1000 Mouse Minnie
+History:
+H 1000
+
+5000 Frog Freddie
+History:
+H 5000
+
+8000 Wacky Wally
+History:
+H 8000
+
+INVALID GENRE GIVEN FOR BORROW
+MOVIE NOT FOUND
+MOVIE NOT FOUND
+MOVIE NOT FOUND
+MOVIE NOT FOUND
+MOVIE NOT FOUND
+MOVIE NOT FOUND
+C
+10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942, Media Type: D
+10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942, Media Type: D
+10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939, Media Type: D
+0, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971, Media Type: D
+10, George Cukor, Holiday, Katherine Hepburn, 9 1938, Media Type: D
+9, George Cukor, Holiday, Cary Grant, 9 1938, Media Type: D
+10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939, Media Type: D
+10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939, Media Type: D
+9, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940, Media Type: D
+9, George Cukor, The Philadelphia Story, Cary Grant, 5 1940, Media Type: D
+9, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941, Media Type: D
+10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946, Media Type: D
+10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946, Media Type: D
+9, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971, Media Type: D
+
+D
+9, Barry Levinson, Good Morning Vietnam, 1988, Media Type: D
+10, Barry Levinson, Same Director Good Morning Vietnam, 1988, Media Type: D
+9, Gus Van Sant, Good Will Hunting, 2000, Media Type: D
+9, Phillippe De Broca, King of Hearts, 1967, Media Type: D
+9, Steven Spielberg, Schindler's List, 1993, Media Type: D
+9, Jonathan Demme, Silence of the Lambs, 1991, Media Type: D
+9, Clint Eastwood, Unforgiven, 1992, Media Type: D
+8, Nancy Savoca, Dogfight, 1991, Media Type: D
+
+F
+9, Nora Ephron, Sleepless in Seattle, 1993, Media Type: D
+9, Woody Allen, Annie Hall, 1977, Media Type: D
+9, Rob Reiner, When Harry Met Sally, 1989, Media Type: D
+10, Gore Verbinski, Pirates of the Caribbean, 2003, Media Type: D
+10, Different Years, Pirates of the Caribbean, 2000, Media Type: D
+9, Joel Coen, Fargo, 1996, Media Type: D
+9, John Landis, National Lampoon's Animal House, 1978, Media Type: D
+9, Nora Ephron, You've Got Mail, 1998, Media Type: D
+
+1000 Mouse Minnie
+History:
+H 1000
+B 1000 D C 3 1971 Ruth Gordon
+B 1000 D C 5 1940 Cary Grant
+B 1000 D D Gus Van Sant, Good Will Hunting,
+B 1000 D C 5 1940 Katherine Hepburn
+B 1000 D D Barry Levinson, Good Morning Vietnam,
+H 1000
+
+1111 Mouse Mickey
+History:
+H 1111
+B 1111 D C 9 1938 Cary Grant
+B 1111 D C 10 1941 Humphrey Bogart
+B 1111 D C 3 1971 Ruth Gordon
+B 1111 D C 2 1971 Malcolm McDowell
+
+5000 Frog Freddie
+History:
+H 5000
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+R 5000 D C 3 1971 Ruth Gordon
+B 5000 D C 3 1971 Ruth Gordon
+H 5000
+
+8000 Wacky Wally
+History:
+H 8000
+B 8000 D F National Lampoon's Animal House, 1978
+B 8000 D C 3 1971 Ruth Gordon
+B 8000 D C 3 1971 Ruth Gordon
+R 8000 D F You've Got Mail, 1998
+B 8000 D F You've Got Mail, 1998
+H 8000
+
+8888 Pig Porky
+History:
+H 8888
+B 8888 D C 3 1971 Ruth Gordon
+B 8888 D D Nancy Savoca, Dogfight,
+B 8888 D D Jonathan Demme, Silence of the Lambs,
+B 8888 D F When Harry Met Sally, 1989
+B 8888 D F Annie Hall, 1977
+
+End testStoreFinal
+=====================================
+Done.
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+12928 warnings generated.
+25835 warnings generated.
+43506 warnings generated.
+60588 warnings generated.
+73492 warnings generated.
+86311 warnings generated.
+105322 warnings generated.
+118603 warnings generated.
+138723 warnings generated.
+157756 warnings generated.
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/classic_movie.cpp:92:21: error: initialization of 'anonymousClassicMovieFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+ClassicMovieFactory anonymousClassicMovieFactory;
+                    ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/classic_movie.cpp:3:22: note: possibly throwing constructor declared here
+ClassicMovieFactory::ClassicMovieFactory() { Movie::registerType("C", this); }
+                     ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/comedy_movie.cpp:52:20: error: initialization of 'anonymousComedyMovieFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+ComedyMovieFactory anonymousComedyMovieFactory;
+                   ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/comedy_movie.cpp:3:21: note: possibly throwing constructor declared here
+ComedyMovieFactory::ComedyMovieFactory() { Movie::registerType("F", this); }
+                    ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:58:25: error: initialization of 'anonymousCommandInventoryFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+CommandInventoryFactory anonymousCommandInventoryFactory;
+                        ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:27:26: note: possibly throwing constructor declared here
+CommandInventoryFactory::CommandInventoryFactory() {
+                         ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:98:23: error: initialization of 'anonymousCommandHistoryFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+CommandHistoryFactory anonymousCommandHistoryFactory;
+                      ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:60:24: note: possibly throwing constructor declared here
+CommandHistoryFactory::CommandHistoryFactory() {
+                       ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:159:22: error: initialization of 'anonymousCommandBorrowFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+CommandBorrowFactory anonymousCommandBorrowFactory;
+                     ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:100:23: note: possibly throwing constructor declared here
+CommandBorrowFactory::CommandBorrowFactory() {
+                      ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:218:22: error: initialization of 'anonymousCommandReturnFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+CommandReturnFactory anonymousCommandReturnFactory;
+                     ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp:161:23: note: possibly throwing constructor declared here
+CommandReturnFactory::CommandReturnFactory() {
+                      ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/drama_movie.cpp:57:19: error: initialization of 'anonymousDramaMovieFactory' with static storage duration may throw an exception that cannot be caught [cert-err58-cpp,-warnings-as-errors]
+DramaMovieFactory anonymousDramaMovieFactory;
+                  ^
+/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/drama_movie.cpp:3:20: note: possibly throwing constructor declared here
+DramaMovieFactory::DramaMovieFactory() { Movie::registerType("D", this); }
+                   ^
+Suppressed 157749 warnings (157749 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+7 warnings treated as errors
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+Running clang-format on ./classic_movie.cpp
+Running clang-format on ./comedy_movie.cpp
+Running clang-format on ./command.cpp
+Running clang-format on ./customer.cpp
+Running clang-format on ./drama_movie.cpp
+Running clang-format on ./hash_table.cpp
+Running clang-format on ./main.cpp
+Running clang-format on ./movie.cpp
+Running clang-format on ./store.cpp
+Running clang-format on ./store_test.cpp
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==19361== Memcheck, a memory error detector
+==19361== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19361== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==19361== Command: ./a.out
+==19361== Parent PID: 19153
+==19361== 
+==19361== 
+==19361== HEAP SUMMARY:
+==19361==     in use at exit: 15,610 bytes in 174 blocks
+==19361==   total heap usage: 587 allocs, 413 frees, 136,268 bytes allocated
+==19361== 
+==19361== LEAK SUMMARY:
+==19361==    definitely lost: 8,744 bytes in 59 blocks
+==19361==    indirectly lost: 6,866 bytes in 115 blocks
+==19361==      possibly lost: 0 bytes in 0 blocks
+==19361==    still reachable: 0 bytes in 0 blocks
+==19361==         suppressed: 0 bytes in 0 blocks
+==19361== Rerun with --leak-check=full to see details of leaked memory
+==19361== 
+==19361== For counts of detected and suppressed errors, rerun with: -v
+==19361== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=====================================================
+7. Tests have full code coverage
+=====================================================
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/classic_movie.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ClassicMovieFactory::ClassicMovieFactory()                                                                                                                                                                                                                                                                                                                                                                                                                             1       0 100.00%         1       0 100.00%
+ClassicMovieFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                    1       0 100.00%         1       0 100.00%
+ClassicMovie::ClassicMovie(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, int)         1       0 100.00%         1       0 100.00%
+ClassicMovie::ClassicMovie(ClassicMovie const&)                                                                                                                                                                                                                                                                                                                                                                                                                        1       0 100.00%         2       0 100.00%
+ClassicMovie::setActorFirstName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                                                                                                                                                                       1       1   0.00%         3       3   0.00%
+ClassicMovie::setActorLastName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                                                                                                                                                                        1       1   0.00%         3       3   0.00%
+ClassicMovie::setMonth(int)                                                                                                                                                                                                                                                                                                                                                                                                                                            1       1   0.00%         1       1   0.00%
+ClassicMovie::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                             1       0 100.00%         6       0 100.00%
+ClassicMovie::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                     1       0 100.00%        10       0 100.00%
+ClassicMovie::getActorLastName[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                      1       1   0.00%         1       1   0.00%
+ClassicMovie::getActorFirstName[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                     1       1   0.00%         1       1   0.00%
+ClassicMovie::getMonth() const                                                                                                                                                                                                                                                                                                                                                                                                                                         1       1   0.00%         1       1   0.00%
+ClassicMovie::operator<(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                            9       9   0.00%         9       9   0.00%
+ClassicMovie::operator>(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                            9       9   0.00%         9       9   0.00%
+ClassicMovie::operator==(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                           8       1  87.50%         8       1  87.50%
+ClassicMovie::operator!=(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                           1       1   0.00%         4       4   0.00%
+ClassicMovie::setUsingSortingAttributes(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                        1       0 100.00%         4       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 40      26  35.00%        65      33  49.23%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/comedy_movie.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ComedyMovieFactory::ComedyMovieFactory()                                                                                                                                                                                                                                                                                                                                                                                                                               1       0 100.00%         1       0 100.00%
+ComedyMovieFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                     1       0 100.00%         1       0 100.00%
+ComedyMovie::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                              1       0 100.00%         5       0 100.00%
+ComedyMovie::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                      1       0 100.00%        11       0 100.00%
+ComedyMovie::operator<(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                             5       5   0.00%         5       5   0.00%
+ComedyMovie::operator>(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                             5       5   0.00%         5       5   0.00%
+ComedyMovie::operator==(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                            5       0 100.00%         5       0 100.00%
+ComedyMovie::operator!=(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                            1       1   0.00%         1       1   0.00%
+ComedyMovie::setUsingSortingAttributes(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                         1       0 100.00%         6       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 21      11  47.62%        40      11  72.50%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/command.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Command::getMap[abi:cxx11]()                                                                                                                                                                                                                                                                                                                                                                                                                                           1       0 100.00%         4       0 100.00%
+Command::registerType(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, CommandFactory*)                                                                                                                                                                                                                                                                                                                                         1       0 100.00%         3       0 100.00%
+Command::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                                4       0 100.00%         7       0 100.00%
+Command::hasExecuted()                                                                                                                                                                                                                                                                                                                                                                                                                                                 1       1   0.00%         1       1   0.00%
+operator<<(std::ostream&, Command const&)                                                                                                                                                                                                                                                                                                                                                                                                                              1       0 100.00%         1       0 100.00%
+operator>>(std::istream&, Command&)                                                                                                                                                                                                                                                                                                                                                                                                                                    1       0 100.00%         1       0 100.00%
+CommandInventoryFactory::CommandInventoryFactory()                                                                                                                                                                                                                                                                                                                                                                                                                     1       0 100.00%         3       0 100.00%
+CommandInventoryFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                1       0 100.00%         3       0 100.00%
+CommandInventory::execute(HashTable<Customer*>&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<Movie*, std::allocator<Movie*> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<Movie*, std::allocator<Movie*> > > > >&)             3       0 100.00%        12       0 100.00%
+CommandInventory::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                         1       1   0.00%         4       4   0.00%
+CommandInventory::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                 1       0 100.00%         3       0 100.00%
+CommandHistoryFactory::CommandHistoryFactory()                                                                                                                                                                                                                                                                                                                                                                                                                         1       0 100.00%         3       0 100.00%
+CommandHistoryFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                  1       0 100.00%         1       0 100.00%
+CommandHistory::execute(HashTable<Customer*>&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<Movie*, std::allocator<Movie*> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<Movie*, std::allocator<Movie*> > > > >&)               4       1  75.00%        19       3  84.21%
+CommandHistory::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                           1       0 100.00%         5       0 100.00%
+CommandHistory::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                   1       0 100.00%         4       0 100.00%
+CommandBorrowFactory::CommandBorrowFactory()                                                                                                                                                                                                                                                                                                                                                                                                                           1       0 100.00%         3       0 100.00%
+CommandBorrowFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                   1       0 100.00%         1       0 100.00%
+CommandBorrow::execute(HashTable<Customer*>&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<Movie*, std::allocator<Movie*> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<Movie*, std::allocator<Movie*> > > > >&)               16       0 100.00%        37       0 100.00%
+CommandBorrow::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                            1       0 100.00%         5       0 100.00%
+CommandBorrow::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                    1       0 100.00%         6       0 100.00%
+CommandReturnFactory::CommandReturnFactory()                                                                                                                                                                                                                                                                                                                                                                                                                           1       0 100.00%         3       0 100.00%
+CommandReturnFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                   1       0 100.00%         1       0 100.00%
+CommandReturn::execute(HashTable<Customer*>&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::vector<Movie*, std::allocator<Movie*> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::vector<Movie*, std::allocator<Movie*> > > > >&)               18       3  83.33%        36      10  72.22%
+CommandReturn::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                            1       0 100.00%         5       0 100.00%
+CommandReturn::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                    1       0 100.00%         6       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 66       6  90.91%       177      18  89.83%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/customer.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Customer::Customer(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                                                                                              1       1   0.00%         1       1   0.00%
+Customer::~Customer()                                                                                                                                                                                                                                                                                                                                                                                                                                                  3       3   0.00%        13      13   0.00%
+Customer::getID() const                                                                                                                                                                                                                                                                                                                                                                                                                                                1       0 100.00%         1       0 100.00%
+Customer::getLastName[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                               1       1   0.00%         1       1   0.00%
+Customer::getFirstName[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                              1       1   0.00%         1       1   0.00%
+Customer::getBorrowed()                                                                                                                                                                                                                                                                                                                                                                                                                                                1       1   0.00%         1       1   0.00%
+Customer::getHistory()                                                                                                                                                                                                                                                                                                                                                                                                                                                 1       0 100.00%         1       0 100.00%
+Customer::addToHistory(Command*)                                                                                                                                                                                                                                                                                                                                                                                                                                       1       0 100.00%         1       0 100.00%
+Customer::setID(int)                                                                                                                                                                                                                                                                                                                                                                                                                                                   1       1   0.00%         1       1   0.00%
+Customer::setLastName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                          1       1   0.00%         1       1   0.00%
+Customer::setFirstName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                         1       1   0.00%         1       1   0.00%
+Customer::borrowMovie(Movie*&)                                                                                                                                                                                                                                                                                                                                                                                                                                         1       0 100.00%         5       0 100.00%
+Customer::returnMovie(Movie*&)                                                                                                                                                                                                                                                                                                                                                                                                                                         7       2  71.43%        11       0 100.00%
+Customer::printHistory() const                                                                                                                                                                                                                                                                                                                                                                                                                                         4       0 100.00%        10       0 100.00%
+operator<<(std::ostream&, Customer const&)                                                                                                                                                                                                                                                                                                                                                                                                                             1       1   0.00%         4       4   0.00%
+operator>>(std::istream&, Customer&)                                                                                                                                                                                                                                                                                                                                                                                                                                   1       0 100.00%         4       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 27      13  51.85%        57      24  57.89%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/drama_movie.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DramaMovieFactory::DramaMovieFactory()                                                                                                                                                                                                                                                                                                                                                                                                                                 1       0 100.00%         1       0 100.00%
+DramaMovieFactory::create() const                                                                                                                                                                                                                                                                                                                                                                                                                                      1       0 100.00%         1       0 100.00%
+DramaMovie::display(std::ostream&) const                                                                                                                                                                                                                                                                                                                                                                                                                               1       0 100.00%         5       0 100.00%
+DramaMovie::input(std::istream&)                                                                                                                                                                                                                                                                                                                                                                                                                                       1       0 100.00%        11       0 100.00%
+DramaMovie::operator<(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                              5       5   0.00%         6       6   0.00%
+DramaMovie::operator>(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                              5       5   0.00%         5       5   0.00%
+DramaMovie::operator==(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                             5       0 100.00%         9       0 100.00%
+DramaMovie::operator!=(Movie const&) const                                                                                                                                                                                                                                                                                                                                                                                                                             1       1   0.00%         1       1   0.00%
+DramaMovie::setUsingSortingAttributes(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                          1       0 100.00%         6       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 21      11  47.62%        45      12  73.33%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/hash_table.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HashTable<Customer*>::count(int) const                                                                                                                                                                                                                                                                                                                                                                                                                                 5       0 100.00%        10       0 100.00%
+HashTable<Customer*>::hashFunction(int) const                                                                                                                                                                                                                                                                                                                                                                                                                          1       0 100.00%         3       0 100.00%
+HashTable<Customer*>::operator[](int const&)                                                                                                                                                                                                                                                                                                                                                                                                                           5       1  80.00%         9       0 100.00%
+HashTable<Customer*>::HashTable()                                                                                                                                                                                                                                                                                                                                                                                                                                      1       0 100.00%         1       0 100.00%
+HashTable<Customer*>::~HashTable()                                                                                                                                                                                                                                                                                                                                                                                                                                     3       0 100.00%        10       0 100.00%
+HashTable<Customer*>::add(int, Customer*&)                                                                                                                                                                                                                                                                                                                                                                                                                             4       1  75.00%         7       2  71.43%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 19       2  89.47%        40       2  95.00%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/main.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+main                                                                                                                                                                                                                                                                                                                                                                                                                                                                   1       0 100.00%         5       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                  1       0 100.00%         5       0 100.00%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/movie.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Movie::Movie(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)                                                                                                                                                                                              1       0 100.00%         1       0 100.00%
+Movie::Movie(Movie const&)                                                                                                                                                                                                                                                                                                                                                                                                                                             1       0 100.00%         7       0 100.00%
+Movie::getMap[abi:cxx11]()                                                                                                                                                                                                                                                                                                                                                                                                                                             1       0 100.00%         4       0 100.00%
+Movie::registerType(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, MovieFactory*)                                                                                                                                                                                                                                                                                                                                             1       0 100.00%         3       0 100.00%
+Movie::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                                  4       0 100.00%         6       0 100.00%
+Movie::getTitle[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                                     1       0 100.00%         1       0 100.00%
+Movie::getDirector[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                                  1       0 100.00%         1       0 100.00%
+Movie::getYear() const                                                                                                                                                                                                                                                                                                                                                                                                                                                 1       1   0.00%         1       1   0.00%
+Movie::getStock() const                                                                                                                                                                                                                                                                                                                                                                                                                                                1       0 100.00%         1       0 100.00%
+Movie::getMedia[abi:cxx11]() const                                                                                                                                                                                                                                                                                                                                                                                                                                     1       0 100.00%         1       0 100.00%
+Movie::setTitle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                                                                                                                                                                                       1       1   0.00%         1       1   0.00%
+Movie::setDirector(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                                                                                                                                                                                    1       1   0.00%         1       1   0.00%
+Movie::setYear(int)                                                                                                                                                                                                                                                                                                                                                                                                                                                    1       1   0.00%         1       1   0.00%
+Movie::setStock(int)                                                                                                                                                                                                                                                                                                                                                                                                                                                   1       0 100.00%         1       0 100.00%
+Movie::setMedia(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)                                                                                                                                                                                                                                                                                                                                                                       1       0 100.00%         1       0 100.00%
+operator<<(std::ostream&, Movie const&)                                                                                                                                                                                                                                                                                                                                                                                                                                1       0 100.00%         1       0 100.00%
+operator>>(std::istream&, Movie&)                                                                                                                                                                                                                                                                                                                                                                                                                                      1       0 100.00%         1       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 20       4  80.00%        33       4  87.88%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/store.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Store::Store()                                                                                                                                                                                                                                                                                                                                                                                                                                                         1       0 100.00%         5       0 100.00%
+Store::~Store()                                                                                                                                                                                                                                                                                                                                                                                                                                                        3       0 100.00%        11       0 100.00%
+Store::readMovies(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                             13       1  92.31%        24       3  87.50%
+Store::printInventory()                                                                                                                                                                                                                                                                                                                                                                                                                                                3       3   0.00%         9       9   0.00%
+Store::readCustomers(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                           8       1  87.50%        20       3  85.00%
+Store::readCommands(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)                                                                                                                                                                                                                                                                                                                                                            9       1  88.89%        22       3  86.36%
+Store::executeCommands()                                                                                                                                                                                                                                                                                                                                                                                                                                               5       0 100.00%         8       0 100.00%
+Store::getCustomer(int const&)                                                                                                                                                                                                                                                                                                                                                                                                                                         3       0 100.00%         3       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                 45       6  86.67%       102      18  82.35%
+
+File '/home/NETID/ghayar/CSS_343_D/2022win343d-movies-GuyTron59/store_test.cpp':
+Name                                                                                                                                                                                                                                                                                                                                                                                                                                                             Regions    Miss   Cover     Lines    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+testStoreFinal()                                                                                                                                                                                                                                                                                                                                                                                                                                                       1       0 100.00%        24       0 100.00%
+testAll()                                                                                                                                                                                                                                                                                                                                                                                                                                                              1       0 100.00%         1       0 100.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                  2       0 100.00%        25       0 100.00%
+=====================================================
+The lines below were never executed
+=====================================================
+   20|      0|void ClassicMovie::setActorFirstName(string firstName) {
+   21|      0|  actorFirstName = move(firstName);
+   22|      0|}
+   24|      0|void ClassicMovie::setActorLastName(string lastName) {
+   25|      0|  actorLastName = move(lastName);
+   26|      0|}
+   28|      0|void ClassicMovie::setMonth(int m) { month = m; }
+   49|      0|string ClassicMovie::getActorLastName() const { return actorLastName; }
+   50|      0|string ClassicMovie::getActorFirstName() const { return actorFirstName; }
+   51|      0|int ClassicMovie::getMonth() const { return month; }
+   53|      0|bool ClassicMovie::operator<(const Movie &rhs) const {
+   54|      0|  auto rhsCopy = dynamic_cast<const ClassicMovie &>(rhs);
+   55|      0|  return (year < rhsCopy.year ||
+   56|      0|          (year == rhsCopy.year &&
+   57|      0|           (month < rhsCopy.month ||
+   58|      0|            (month == rhsCopy.month &&
+   59|      0|             (actorFirstName + actorLastName) <
+   60|      0|                 (rhsCopy.actorFirstName + rhsCopy.actorLastName)))));
+   61|      0|}
+   63|      0|bool ClassicMovie::operator>(const Movie &rhs) const {
+   64|      0|  auto rhsCopy = dynamic_cast<const ClassicMovie &>(rhs);
+   65|      0|  return (year > rhsCopy.year ||
+   66|      0|          (year == rhsCopy.year &&
+   67|      0|           (month > rhsCopy.month ||
+   68|      0|            (month == rhsCopy.month &&
+   69|      0|             (actorFirstName + actorLastName) >
+   70|      0|                 (rhsCopy.actorFirstName + rhsCopy.actorLastName)))));
+   71|      0|}
+   80|      0|}
+   82|      0|bool ClassicMovie::operator!=(const Movie &rhs) const {
+   83|      0|  auto rhsCopy = dynamic_cast<const ClassicMovie &>(rhs);
+   84|      0|  return !(*this == rhsCopy);
+   85|      0|}
+   25|      0|bool ComedyMovie::operator<(const Movie &rhs) const {
+   26|      0|  auto rhsCopy = dynamic_cast<const ComedyMovie &>(rhs);
+   27|      0|  return title < rhsCopy.title ||
+   28|      0|         (title == rhsCopy.title && year < rhsCopy.year);
+   29|      0|}
+   31|      0|bool ComedyMovie::operator>(const Movie &rhs) const {
+   32|      0|  auto rhsCopy = dynamic_cast<const ComedyMovie &>(rhs);
+   33|      0|  return title > rhsCopy.title ||
+   34|      0|         (title == rhsCopy.title && year > rhsCopy.year);
+   35|      0|}
+   43|      0|bool ComedyMovie::operator!=(const Movie &rhs) const { return !(*this == rhs); }
+   21|      0|bool Command::hasExecuted() { return executed; }
+   49|      0|ostream &CommandInventory::display(ostream &os) const {
+   50|      0|  os << "I";
+   51|      0|  return os;
+   52|      0|} // no need because does not have any private data members
+   83|      0|
+   84|      0|  return false;
+   85|      0|}
+  174|      0|    return false;
+  175|      0|  }
+  180|      0|    cerr << "INVALID GENRE GIVEN FOR BORROW" << endl;
+  181|      0|    return false;
+  182|      0|  }
+  199|      0|  }
+  200|      0|  executed = true;
+  201|      0|
+  202|      0|  return false;
+  203|      0|}
+    5|      0|    : id(id), lastName(move(last)), firstName(move(first)) {}
+    7|      0|Customer::~Customer() {
+    8|      0|  for (Movie *m : borrowed) {
+    9|      0|    delete m;
+   10|      0|  }
+   11|      0|
+   12|      0|  for (Command *c : history) {
+   13|      0|    delete c;
+   14|      0|  }
+   15|      0|
+   16|      0|  borrowed.clear();
+   17|      0|
+   18|      0|  history.clear();
+   19|      0|}
+   23|      0|string Customer::getLastName() const { return lastName; }
+   25|      0|string Customer::getFirstName() const { return firstName; }
+   27|      0|vector<Movie *> &Customer::getBorrowed() { return borrowed; }
+   33|      0|void Customer::setID(int i) { id = i; }
+   35|      0|void Customer::setLastName(const string &last) { lastName = last; }
+   37|      0|void Customer::setFirstName(const string &first) { firstName = first; }
+   68|      0|ostream &operator<<(ostream &os, const Customer &rhs) {
+   69|      0|  os << rhs.id << " " << rhs.lastName << " " << rhs.firstName;
+   70|      0|  return os;
+   71|      0|}
+   25|      0|bool DramaMovie::operator<(const Movie &rhs) const {
+   26|      0|  // Call dynamic cast
+   27|      0|  auto rhsCopy = dynamic_cast<const DramaMovie &>(rhs);
+   28|      0|  return (director < rhsCopy.director ||
+   29|      0|          (director == rhsCopy.director && title < rhsCopy.title));
+   30|      0|}
+   32|      0|bool DramaMovie::operator>(const Movie &rhs) const {
+   33|      0|  auto rhsCopy = dynamic_cast<const DramaMovie &>(rhs);
+   34|      0|  return (director > rhsCopy.director ||
+   35|      0|          (director == rhsCopy.director && title > rhsCopy.title));
+   36|      0|}
+   48|      0|bool DramaMovie::operator!=(const Movie &rhs) const { return !(*this == rhs); }
+   31|      0|  return false;
+   32|      0|}
+   34|      0|int Movie::getYear() const { return year; }
+   40|      0|void Movie::setTitle(string t) { title = move(t); }
+   42|      0|void Movie::setDirector(string d) { director = move(d); }
+   44|      0|void Movie::setYear(int y) { year = y; }
+   24|      0|    cerr << "Failed to open: " << fileName << endl;
+   25|      0|    return false;
+   26|      0|  }
+   46|      0|void Store::printInventory() {
+   47|      0|  for (const auto &p : movies) {
+   48|      0|    cout << p.first << endl;
+   49|      0|    for (Movie *m : p.second) {
+   50|      0|      cout << *m << endl;
+   51|      0|    }
+   52|      0|    cout << endl;
+   53|      0|  }
+   54|      0|}
+   59|      0|    cerr << "Failed to open: " << fileName << endl;
+   60|      0|    return false;
+   61|      0|  }
+   80|      0|    cerr << "Failed to open: " << fileName << endl;
+   81|      0|    return false;
+   82|      0|  }
+Fri 11 Mar 2022 09:45:16 AM PST
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
